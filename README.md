@@ -20,3 +20,19 @@ You can notify yourself via Pushover when plotting has finished. If your not fam
      * Icon: f.e. use the chia icon from their [github repository](https://github.com/Chia-Network)
      * After creating the application the *pushoverApiTokenKey* can be found on the top of the website below the text *API Token/Key*
  * Please be aware that Pushover applications are limited to 7500 messages per month each
+
+## startFarmer.sh
+
+Start chia farmer.
+
+## stopFarmer.sh
+
+Stop chia.
+
+## updateBinaries.sh
+
+1. Stop chia
+2. Create backup
+3. Update local git repository
+4. Install chia
+5. Init chia
